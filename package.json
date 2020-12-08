@@ -1,0 +1,28 @@
+{
+  "name": "foodandwine",
+  "version": "1.0.0",
+  "description": "food and wine site ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "node-sass --include-path scss scss/styles.scss   css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxbordovski/foodanwine.git"
+  },
+  "author": "Max Bordovski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxbordovski/foodanwine/issues"
+  },
+  "homepage": "https://github.com/maxbordovski/foodanwine#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+  }
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+    "nodemon": "^2.0.6"
+  }
+}
