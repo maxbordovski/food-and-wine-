@@ -1,0 +1,85 @@
+/* Mixin for block 60%*/
+/* Mixin for flexbox bloch row*/
+/* Colors for backgraund*/
+/* Colors for text*/
+a {
+  text-decoration: none; }
+
+.fw-hlogo {
+  background-color: #1d1d1d;
+  position: relative; }
+
+.fw-hcontacts {
+  background-color: #2a2a2a;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  z-index: 999999999;
+  font-size: 10px; }
+
+.fw-hcontactsblock {
+  width: 60%;
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  color: #9c9c9c;
+  padding: 2px;
+  max-height: 18px; }
+
+.fw-hlogoblock {
+  margin: auto;
+  width: 30%; }
+
+img {
+  width: 100%; }
+
+.fw-hnaw {
+  width: 60%;
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between; }
+
+.fw-hnavitem {
+  padding: 5px;
+  border-left: 1px solid #e0ca8f;
+  text-align: center;
+  flex: 0 0 12%; }
+  .fw-hnavitem:hover {
+    text-decoration: none;
+    background-color: #e0ca8f; }
+
+.fw-hnavitem a {
+  font-size: 14px;
+  color: #e0ca8f; }
+  .fw-hnavitem a:hover {
+    color: black; }
+
+.fw-hnaw div:first-child {
+  border-left: none; }
+
+body {
+  font-family: 'Merriweather', serif; }
+
+a {
+  text-decoration: none; }
+
+h1 {
+  font-size: 30px; }
+
+h2 {
+  font-size: 20px; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 14px; }
+
+p {
+  font-size: 18px; }
+
+i {
+  padding-left: 10px;
+  padding-right: 5px; }
