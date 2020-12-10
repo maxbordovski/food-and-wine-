@@ -2,11 +2,11 @@
 /* Colors for text*/
 /* Mixin for block 60%*/
 /* Mixin for flexbox bloch row*/
-.fw-hlogo {
+.fw-h-logo {
   background-color: #1d1d1d;
   position: relative; }
 
-.fw-hcontacts {
+.fw-h-contacts {
   background-color: #2a2a2a;
   width: 100%;
   position: absolute;
@@ -14,7 +14,7 @@
   z-index: 999999999;
   font-size: 10px; }
 
-.fw-hcontactsblock {
+.fw-h-contactsblock {
   width: 60%;
   margin: auto;
   max-width: 1200px;
@@ -24,36 +24,36 @@
   padding: 2px;
   max-height: 18px; }
 
-.fw-hlogoblock {
+.fw-h-logoblock {
   margin: auto;
   width: 30%; }
 
 img {
   width: 100%; }
 
-.fw-hnaw {
+.fw-h-naw {
   width: 60%;
   margin: auto;
   max-width: 1200px;
   display: flex;
   justify-content: space-between; }
 
-.fw-hnavitem {
+.fw-h-navitem {
   padding: 5px;
   border-left: 1px solid #e0ca8f;
   text-align: center;
   flex: 0 0 12%; }
-  .fw-hnavitem:hover {
+  .fw-h-navitem:hover {
     text-decoration: none;
     background-color: #e0ca8f; }
 
-.fw-hnavitem a {
+.fw-h-navitem a {
   font-size: 14px;
   color: #e0ca8f; }
-  .fw-hnavitem a:hover {
+  .fw-h-navitem a:hover {
     color: black; }
 
-.fw-hnaw div:first-child {
+.fw-h-naw div:first-child {
   border-left: none; }
 
 body {
