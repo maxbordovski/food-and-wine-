@@ -1,26 +1,6 @@
-/* Mixin for block 60%*/
-@mixin block60 {
-    width: 60%;
-    margin: auto;
-    max-width: 1200px;
-}
-/* Mixin for flexbox bloch row*/
-@mixin flexblock {
-    display: flex;
-    justify-content: space-between;
-}
-/* Colors for backgraund*/
-$bgcolorprimary: rgb(29, 29, 29);
-$bgcolorsecondary:  rgb(42, 42, 42);
-/* Colors for text*/
-$colortextprimary: rgb(255, 255, 255);
-$colortextsecondary: rgb(224, 202, 143);
-$colortextgrey: rgb(156, 156, 156);
+@import "colors.scss";
+@import "base.scss";
 
-
-a{
-    text-decoration: none;
-}
 .fw-hlogo{
     background-color: $bgcolorprimary;
     position: relative;

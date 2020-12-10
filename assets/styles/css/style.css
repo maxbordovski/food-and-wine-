@@ -1,10 +1,7 @@
-/* Mixin for block 60%*/
-/* Mixin for flexbox bloch row*/
 /* Colors for backgraund*/
 /* Colors for text*/
-a {
-  text-decoration: none; }
-
+/* Mixin for block 60%*/
+/* Mixin for flexbox bloch row*/
 .fw-hlogo {
   background-color: #1d1d1d;
   position: relative; }
@@ -83,3 +80,6 @@ p {
 i {
   padding-left: 10px;
   padding-right: 5px; }
+
+a {
+  text-decoration: none; }
