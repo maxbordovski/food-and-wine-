@@ -1,0 +1,29 @@
+/* Mixin for block 60%*/
+@mixin block60 {
+    width: 60%;
+    margin: auto;
+    max-width: 1200px;
+}
+/*Mixin for column objects*/
+@mixin flex-cols{ 
+    display: flex;
+    flex-direction: column;
+}
+/*Pattern for inputs*/
+@mixin in-t {
+    outline:none;
+    background-color: transparent;
+    border: 1px solid $bgcolorsecondary;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+/*Pattern for buttons*/
+@mixin bu-t {
+    font-family: 'Meriweather';
+    border: none;
+    background-color: inherit;
+    color: $colortextsecondary;
+    padding: 5px 10px 5px 10px;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+}
