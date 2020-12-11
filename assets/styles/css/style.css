@@ -1,0 +1,162 @@
+/* Mixin for block 60%*/
+/*Mixin for column objects*/
+/*Pattern for inputs*/
+/*Pattern for buttons*/
+/* Colors for backgraund*/
+/* Colors for text*/
+body {
+  font-family: "Merriweather Sans";
+  color: #9c9c9c;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  color: white;
+  font-family: "Merriweather";
+  padding-bottom: 20px;
+}
+
+h4 {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+p {
+  font-size: 18px;
+}
+
+i {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fw-f-logo {
+  position: relative;
+  right: 67px;
+}
+
+footer {
+  background-color: #1d1d1d;
+  padding: 5% 0%;
+}
+
+.fw-f-elements {
+  width: 60%;
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.fw-f-email {
+  color: #e0ca8f;
+}
+
+.fw-f-address {
+  color: #9c9c9c;
+  font-family: "Merriweather Sans";
+  padding-bottom: 0;
+}
+
+.fw-f-contact-us {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 4;
+  padding-right: 10%;
+}
+
+input {
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #2a2a2a;
+  padding: 7px;
+  margin-bottom: 10px;
+}
+
+button {
+  font-family: "Meriweather";
+  border: none;
+  background-color: inherit;
+  color: #e0ca8f;
+  padding: 5px 10px 5px 10px;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+}
+
+button:hover {
+  background: #2a2a2a;
+}
+
+.fw-f-message {
+  padding-bottom: 25%;
+}
+
+.fw-f-logo {
+  position: relative;
+  right: 67px;
+}
+
+.fw-f-email-input {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.fw-f-submit-button {
+  box-sizing: border-box;
+  width: 30%;
+  position: relative;
+  left: 70%;
+}
+
+.fw-f-subsribe-button {
+  position: relative;
+  left: 56%;
+}
+
+.fw-f-line {
+  width: 60%;
+  margin: auto;
+  max-width: 1200px;
+  background-color: #2a2a2a;
+  height: 2px;
+  margin-top: 3%;
+}
+
+.fw-f-footer-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.fw-f-copyrights {
+  padding-top: 3%;
+  box-sizing: border-box;
+  width: 60%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+i {
+  padding: 5px 10px;
+  color: #e0ca8f;
+  position: relative;
+  bottom: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
