@@ -1,0 +1,36 @@
+@import "colors.scss";
+@import "mixins.scss";
+
+.fw-sliderblock{
+    position: relative;
+    background-color: $bgcolorsecondary;
+}
+.fw-sliderblock-abs{
+    position: absolute;
+    @include block60;
+    z-index: 99999;
+    top: 25%;
+    left: 20%;
+    color: $colortextprimary;
+        h4{
+            text-transform: uppercase;
+            text-align: center;
+        }
+}
+.fw-slider{
+    @include flexblock;
+}
+.fw-line{
+    min-width: 180px;
+    height: 1px;
+    background-color: $colortextprimary;
+}
+.fw-btn18-block{
+    margin-top: 100px;
+    padding-left: 45%;
+}
+.fw-btn14-block{
+    position: absolute;
+    bottom: -33px;
+    left: 48%;
+}

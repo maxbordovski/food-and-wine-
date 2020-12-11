@@ -4,8 +4,9 @@
     margin: auto;
     max-width: 1200px;
 }
-/* Mixin for flexbox bloch row*/
+/* Mixin for flexbox block row*/
 @mixin flexblock {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
