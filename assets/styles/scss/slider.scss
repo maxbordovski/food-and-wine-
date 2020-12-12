@@ -12,6 +12,9 @@
     top: 25%;
     left: 20%;
     color: $colortextprimary;
+        h1{
+            padding: 0 10px;
+        }
         h4{
             text-transform: uppercase;
             text-align: center;
@@ -21,9 +24,10 @@
     @include flexblock;
 }
 .fw-line{
-    min-width: 180px;
+    flex-grow: 2;
     height: 1px;
     background-color: $colortextprimary;
+    margin: 0 10px;
 }
 .fw-btn18-block{
     margin-top: 100px;
