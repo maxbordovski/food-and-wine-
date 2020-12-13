@@ -33,3 +33,21 @@
     font-size: 18px;
     letter-spacing: 0.1em;
 }
+/*Pattern for buttons*/
+@mixin break-line {
+    display: inline-block;
+    @include flexblock;
+    margin-top: 40px;
+        i{
+            transform: rotate(-45deg);
+            padding: 0;
+            color: $colortextgrey;
+            font-size: 5px;
+        }
+        hr{
+            border: none;
+            background-color: $colortextgrey;
+            height: 1px;
+            flex-grow: 2;
+        }
+}

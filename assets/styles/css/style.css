@@ -37,6 +37,7 @@ a {
 /*Mixin for column objects*/
 /*Pattern for inputs*/
 /*Pattern for buttons*/
+/*Pattern for buttons*/
 .fw-h-logo {
   background-color: #1d1d1d;
   position: relative; }
@@ -100,6 +101,7 @@ img {
 /*Mixin for column objects*/
 /*Pattern for inputs*/
 /*Pattern for buttons*/
+/*Pattern for buttons*/
 .fw-sliderblock {
   position: relative;
   background-color: #2a2a2a; }
@@ -145,6 +147,7 @@ img {
 /* Mixin for flexbox block row*/
 /*Mixin for column objects*/
 /*Pattern for inputs*/
+/*Pattern for buttons*/
 /*Pattern for buttons*/
 .fw-btn {
   opacity: 70%;
@@ -203,6 +206,7 @@ img {
 /*Mixin for column objects*/
 /*Pattern for inputs*/
 /*Pattern for buttons*/
+/*Pattern for buttons*/
 .fw-menublock {
   background-color: #2a2a2a; }
 
@@ -211,7 +215,7 @@ img {
   margin: auto;
   max-width: 1200px;
   text-align: center;
-  padding-top: 150px;
+  padding-top: 130px;
   padding-bottom: 30px; }
   .fw-menu-textblock h1 {
     color: white; }
@@ -237,7 +241,8 @@ img {
   position: relative;
   width: 32%;
   background-color: black;
-  min-height: 800px; }
+  min-height: 800px;
+  padding-bottom: 80px; }
 
 .fw-menu-name {
   width: 100%;
@@ -263,7 +268,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 30px 0; }
+  margin-top: 40px; }
   .fw-break-line i {
     transform: rotate(-45deg);
     padding: 0;
@@ -274,3 +279,26 @@ li {
     background-color: #9c9c9c;
     height: 1px;
     flex-grow: 2; }
+
+/* Colors for backgraund*/
+/* Colors for text*/
+/* Mixin for block 60%*/
+/* Mixin for flexbox block row*/
+/*Mixin for column objects*/
+/*Pattern for inputs*/
+/*Pattern for buttons*/
+/*Pattern for buttons*/
+.fw-reserv-block {
+  background-color: #2a2a2a; }
+
+.fw-reserv-textblock {
+  width: 60%;
+  margin: auto;
+  max-width: 1200px;
+  text-align: center;
+  padding-top: 70px; }
+  .fw-reserv-textblock h1 {
+    color: white; }
+  .fw-reserv-textblock p {
+    padding: 30px 0;
+    color: #9c9c9c; }
