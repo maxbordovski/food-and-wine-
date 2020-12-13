@@ -1,0 +1,52 @@
+@import "colors.scss";
+@import "mixins.scss";
+
+.fw-h-logo{
+    background-color: $bgcolorprimary;
+    position: relative;
+}
+.fw-h-contacts{
+    background-color: $bgcolorsecondary;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 999999999;
+    font-size: 10px;
+}
+.fw-h-contactsblock{
+    @include block60;
+    @include flexblock;
+    color: $colortextgrey;
+    padding: 2px;
+    max-height: 18px;
+}
+.fw-h-logoblock{
+    margin: auto;
+    width: 30%;
+}
+img{
+    width: 100%;
+}
+.fw-h-naw{
+    @include block60;
+    @include flexblock;
+}
+.fw-h-navitem{
+    padding: 5px;
+    border-left: 1px solid $colortextsecondary;
+    text-align: center;
+    flex: 0 0 12%;
+        &:hover {  text-decoration: none;
+        background-color: $colortextsecondary;
+        } 
+}
+.fw-h-navitem a{
+    font-size: 14px;
+    color: $colortextsecondary;
+    &:hover{
+        color: black; 
+    }
+}
+.fw-h-naw div:first-child{
+    border-left: none;
+}

@@ -1,0 +1,265 @@
+@import "mixins.scss";
+@import "colors.scss";
+@import "style.scss";
+
+.fw-h-logo {
+    background-color: $bgcolorprimary;
+    position: relative; 
+    padding-bottom: 30px;
+    display: block;
+    @include margins-align
+}
+.fw-h-contacts {
+    background-color: $bgcolorsecondary;
+    width: 100%;
+    font-size: 14px; 
+    padding: 5px 0;
+}
+.fw-h-container {
+    @include block60;
+    display: flex;
+    justify-content: space-between;
+    color: $colortextgrey;
+    font-family: 'Merriweather sans';
+    padding: 7px 0;
+}
+.fw-h-geo {
+    flex-grow: 15;
+}
+.fw-h-phone {
+    flex-grow: 2;
+}
+i {
+    padding-right: 5px;
+}
+.fw-h-naw {
+    @include block60;
+    display: flex;
+    justify-content: space-between; 
+}
+  
+.fw-h-navitem {
+    padding: 5px;
+    border-left: 1px solid $bgcolorsecondary;
+    text-align: center;
+    flex: 0 0 12%; 
+}
+    .fw-h-navitem:hover {
+      text-decoration: none;
+      background-color: $colortextsecondary; 
+    }
+  
+  .fw-h-navitem a {
+    font-size: 14px;
+    color: $colortextsecondary; 
+}
+
+    .fw-h-navitem a:hover {
+      color: $bgcolorprimary; 
+    }
+  
+  .fw-h-naw div:first-child {
+    border-left: none; 
+}
+/*END OF HEADER*/
+.fw-l-info {
+    position: relative;
+    height: 395px;
+}
+.fw-l-label-bg {
+    width: 100%
+}
+.fw-l-centering {
+    @include centering-absolute-child;
+    padding-right: 10px;
+}
+.fw-l-decoration {
+    @include flex-container-full_center;
+}
+    .fw-l-romb-l, .fw-l-romb-r {
+    width: 0; 
+    height: 0;
+    border: 4px solid transparent;
+    border-bottom-color: $colortextgrey;
+    position: relative; 
+    top: -4px;
+}
+    .fw-l-romb-r:after {
+    @include rhombus-after;
+}
+    .fw-l-romb-l:after {
+    @include rhombus-after;
+}
+    .fw-l-line-l, .fw-l-line-r {
+      background-color: $colortextgrey;
+      height: 1px;
+      width: 340px;
+}
+.fw-l-name {
+    padding: 0 10px 0 10px;
+    font-size: 30px;
+    font-family: 'Merriweather';
+    font-weight: 600;
+    color: $colortextprimary;
+}
+.fw-l-nav {
+    @include flex-container-full_center;
+    padding-top: 10px;
+}
+.fw-l-menu-center {
+    border-left: $colortextprimary 1px solid;
+    border-right: $colortextprimary 1px solid;
+}
+a {
+    color: $colortextprimary; 
+    text-decoration: none;
+    padding: 0 10px;
+    font-family: 'Merriweather sans';
+ }
+a:hover {
+    background-color: $colortextsecondary;
+} 
+a:visited {
+    color: $colortextprimary; 
+}
+a:active {
+    color: $colortextprimary;  
+}
+/*END OF LABEL*/
+table {
+    font-family: 'Merriweather Sans';
+    font-size: 14px; 
+    color: $colortextgrey;
+    @include margins-align;
+}    
+.fw-wl-background {
+    background-color: $bgcolorprimary;
+}
+.fw-wl-lable, .fw-wl-types {
+    font-family: 'Merriweather';
+}
+.fw-wl-types {
+    padding: 10px 20px;
+}
+.fw-wl-lable {
+    color: $colortextprimary;
+    font-size: 18px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+td {
+    padding: 5px 20px; 
+}
+.fw-wl-under-line {
+    border-bottom: 1px solid $bgcolorsecondary;
+    box-sizing: border-box;
+    height: 25px;
+}
+.fw-wl-price {
+    color: $colortextprimary;
+}
+h1{
+    font-size: 30px;
+    color: $colortextprimary;
+    font-family: 'Merriweather';
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px 
+}
+.fw-wl-bottom-line {
+    border-bottom: 1px solid $bgcolorsecondary;
+    @include block60;
+    padding: 20px 0 30px;
+}
+/*END OF TABLE*/
+
+.fw-f-logo { 
+    position: relative;
+    right: 67px;
+}
+footer {
+    background-color: $bgcolorprimary;
+    padding: 5% 0%;
+}
+.fw-f-elements {
+    @include block60;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.fw-f-email {
+    color: $colortextsecondary;
+}
+.fw-f-address {
+    color: $colortextgrey;
+    font-family: 'Merriweather Sans';
+    padding-bottom: 0;
+  }
+.fw-f-contact-us {
+    @include flex-cols;
+    flex-grow: 4;
+    padding-right: 10%;
+  }
+input { 
+    @include in-t;
+}
+button {
+    @include bu-t;
+}
+button:hover {
+    background: $bgcolorsecondary;
+}
+.fw-f-message { 
+    padding-bottom: 25%;
+}
+  .fw-f-logo { 
+    position: relative;
+    right: 67px;
+}
+  .fw-f-email-input {
+    width: 100%;
+    margin-top: 10px;
+}
+  .fw-f-submit-button { 
+    box-sizing: border-box;
+    width: 30%;
+    position: relative;
+    left: 70%;
+}
+  .fw-f-subsribe-button {
+    position: relative;
+    left: 65%;
+}
+.fw-f-line {
+    @include block60;
+    background-color: $bgcolorsecondary;
+    height: 2px;
+    margin-top: 3%;
+}
+.fw-f-footer-bottom {
+    @include flex-cols;
+}
+.fw-f-copyrights {
+    padding-top: 3%;
+    box-sizing: border-box;
+    @include block60;
+}
+.fw-f-envelope-ic {
+    padding: 5px 10px;
+    color: $colortextsecondary;
+    position: relative;
+    bottom: 40px;
+}
+h3 {
+    font-size: 18px;
+    color: $colortextprimary;
+    font-family: "Merriweather";
+    padding-bottom: 20px;
+  }
+.fw-f-info, .fw-f-copyrights, .fw-f-attention {
+        font-family: "Merriweather Sans";
+        color: $colortextgrey;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+}
