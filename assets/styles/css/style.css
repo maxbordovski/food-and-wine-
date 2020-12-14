@@ -1,7 +1,10 @@
+/*Mixin for centering child elements with help pos:absolute 
+!Don't forget to give pos:reletive and height for parent element!*/
+/*Just for centering flex items by the center*/
+/*:after for creating rhombus*/
 /* Mixin for block 60%*/
+/*Center alignment*/
 /*Mixin for column objects*/
-/*Pattern for inputs*/
-/*Pattern for buttons*/
 /* Colors for backgraund*/
 /* Colors for text*/
 body {
@@ -15,6 +18,8 @@ a {
 
 h1 {
   font-size: 30px;
+  color: white;
+  font-family: "Merriweather";
 }
 
 h2 {
@@ -25,7 +30,6 @@ h3 {
   font-size: 18px;
   color: white;
   font-family: "Merriweather";
-  padding-bottom: 20px;
 }
 
 h4 {
@@ -46,11 +50,6 @@ a {
   text-decoration: none;
 }
 
-.fw-f-logo {
-  position: relative;
-  right: 67px;
-}
-
 footer {
   background-color: #1d1d1d;
   padding: 5% 0%;
@@ -59,10 +58,7 @@ footer {
 .fw-f-elements {
   width: 60%;
   margin: auto;
-  max-width: 1200px;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
 }
 
 .fw-f-email {
@@ -108,11 +104,6 @@ button:hover {
   padding-bottom: 25%;
 }
 
-.fw-f-logo {
-  position: relative;
-  right: 67px;
-}
-
 .fw-f-email-input {
   width: 100%;
   margin-top: 10px;
@@ -127,7 +118,8 @@ button:hover {
 
 .fw-f-subsribe-button {
   position: relative;
-  left: 56%;
+  left: 65%;
+  bottom: 25px;
 }
 
 .fw-f-line {
@@ -152,11 +144,26 @@ button:hover {
   max-width: 1200px;
 }
 
-i {
+.fw-f-envelope-ic {
   padding: 5px 10px;
   color: #e0ca8f;
   position: relative;
   bottom: 40px;
+}
+
+h3 {
+  font-size: 18px;
+  color: white;
+  font-family: "Merriweather";
+  padding-bottom: 20px;
+}
+
+.fw-f-info, .fw-f-copyrights, .fw-f-attention {
+  font-family: "Merriweather Sans";
+  color: #9c9c9c;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
 }
 
 /*# sourceMappingURL=style.css.map */
