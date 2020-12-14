@@ -172,20 +172,14 @@ h1{
     padding: 20px 0 30px;
 }
 /*END OF TABLE*/
-
-.fw-f-logo { 
-    position: relative;
-    right: 67px;
-}
 footer {
     background-color: $bgcolorprimary;
     padding: 5% 0%;
 }
 .fw-f-elements {
-    @include block60;
+    width: 60%;
+    margin: auto;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
 }
 .fw-f-email {
     color: $colortextsecondary;
@@ -201,20 +195,26 @@ footer {
     padding-right: 10%;
   }
 input { 
-    @include in-t;
+    outline:none;
+    background-color: transparent;
+    border: 1px solid $bgcolorsecondary;
+    padding: 7px;
+    margin-bottom: 10px;
 }
 button {
-    @include bu-t;
+    font-family: 'Meriweather';
+    border: none;
+    background-color: inherit;
+    color: $colortextsecondary;
+    padding: 5px 10px 5px 10px;
+    font-size: 18px;
+    letter-spacing: 0.1em;
 }
 button:hover {
     background: $bgcolorsecondary;
 }
-.fw-f-message { 
+.fw-f-message {    
     padding-bottom: 25%;
-}
-  .fw-f-logo { 
-    position: relative;
-    right: 67px;
 }
   .fw-f-email-input {
     width: 100%;
@@ -229,6 +229,7 @@ button:hover {
   .fw-f-subsribe-button {
     position: relative;
     left: 65%;
+    bottom: 25px
 }
 .fw-f-line {
     @include block60;
