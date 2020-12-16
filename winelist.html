@@ -284,11 +284,20 @@
 
       </div>
           <div class="fw-f-contact-us"><h3>Contact us</h3> <!--Contact message-->
-            <form action="#" id="contact-info"></form>
-            
-               <input type="text" placeholder="Your name" form="contact-info">
-               <input type="text" placeholder="Email" form="contact-info">
-               <input class="fw-f-message" type="text" placeholder="Message" form="contact-info">
+            <form action="#" id="contact-info">
+                 <div>
+              <label for="name">Your name</label>
+              <input type="text" id="name" form="contact-info">
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="text" id="email" form="contact-info">
+            </div>   
+            <div>
+              <label for="message">Message</label>
+              <input class="fw-f-message" type="text" id="message" form="contact-info">
+            </div>
+            </form>
             
             <div class="fw-f-align-button">
               <button class="fw-f-submit-button">SUBMIT</button>
