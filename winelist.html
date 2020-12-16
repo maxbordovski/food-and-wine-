@@ -43,7 +43,7 @@
       <main>
         <section>
             <div class="fw-l-info">
-                <img class="fw-l-label-bg" src="assets/images/label-bg-winelist.png"> <!--If you wanna add another img put it here-->
+                <div class="fw-l-label-bg"></div>
                 <div class="fw-l-centering">
                 <div class="fw-l-decoration"> <!--Decoration and H1-->
                 <div class="fw-l-romb-l"></div>
@@ -277,21 +277,38 @@
         <div class="fw-f-elements"> <!--Logo, address, phone and email-->
           <div class="fw-f-ontacts">
           <img class="fw-f-logo" src="assets/images/logov2.png" alt="Food & Wine">
-          <h3 class="fw-f-address">Address:</h3>
-          <h4 class="fw-f-info"><br>4578 Marmora St,<br>San Francisco D04 89GR.<br>Telephone: 1-800-1234-567<br>E-mail: <span class="fw-f-email">mail@demolink.org</span></h4>
+          <div class="fw-f-container-ad">
+              <h3 class="fw-f-address">Address:</h3>
+              <h4 class="fw-f-info"><br>4578 Marmora St,<br>San Francisco D04 89GR.<br>Telephone: 1-800-1234-567<br>E-mail: <span class="fw-f-email">mail@demolink.org</span></h4>
+          </div>
+
       </div>
           <div class="fw-f-contact-us"><h3>Contact us</h3> <!--Contact message-->
-          <input type="fw-f-text" placeholder="Your name">
-          <input type="fw-f-text" placeholder="Email">
-          <input class="fw-f-message" type="text" placeholder="Message">
-          <button class="fw-f-submit-button">SUBMIT</button>
+            <form action="#" id="contact-info"></form>
+            
+               <input type="text" placeholder="Your name" form="contact-info">
+               <input type="text" placeholder="Email" form="contact-info">
+               <input class="fw-f-message" type="text" placeholder="Message" form="contact-info">
+            
+            <div class="fw-f-align-button">
+              <button class="fw-f-submit-button">SUBMIT</button>
+            </div>
+          
       </div>
-      <div> <!--Newslatter mailing part-->
+      <div class="fw-f-newslatter"> <!--Newslatter mailing part-->
           <h3>Newsletter</h3>
-          <h4 class="fw-f-attention">Keep up with the latest restaurant news and events.<br>Enter your e-mail and subscribe to our newsletter.</h4>
-          <input class="fw-f-email-input" type="text">
-          <div class="fw-f-envelope-ic"><i class="fas fa-envelope"></i></div>
-          <button class="fw-f-subsribe-button">SUBSCRIBE</button>
+          <div class="fw-f-align-newslatter">
+            <div><h4 class="fw-f-attention">Keep up with the latest restaurant news and events.<br>Enter your e-mail and subscribe to our newsletter.</h4></div>   
+               <!--<input class="fw-f-email-input" type="text">             
+              <div class="fw-f-envelope-ic">
+                 <i class="fas fa-envelope"></i>
+                </div>-->
+                  <input class="fw-f-email-input"placeholder="&#61447;"/>
+            <div class="fw-f-align-button">
+            <button class="fw-f-subsribe-button">SUBSCRIBE</button>
+            </div>
+          </div>
+          
       </div>
   </div>
   <div class="fw-f-footer-bottom"> <!--Bottom line and copyrights-->

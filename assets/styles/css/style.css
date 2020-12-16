@@ -85,9 +85,7 @@ a {
   flex-grow: 2;
 }
 
-i {
-  padding-right: 5px;
-}
+
 
 .fw-h-naw {
   width: 60%;
@@ -126,10 +124,12 @@ i {
 .fw-l-info {
   position: relative;
   height: 395px;
+  background-image: url('/assets/images/label-bg-winelist.png');
+  background-size:cover;
+  background-position:center;
 }
 
 .fw-l-label-bg {
-  width: 100%;
 }
 
 .fw-l-centering {
@@ -288,7 +288,7 @@ footer {
 }
 
 .fw-f-elements {
-  width: 60%;
+  width: 70%;
   margin: auto;
   display: flex;
 }
@@ -337,23 +337,8 @@ button:hover {
 }
 
 .fw-f-email-input {
-  width: 100%;
   margin-top: 10px;
 }
-
-.fw-f-submit-button {
-  box-sizing: border-box;
-  width: 30%;
-  position: relative;
-  left: 70%;
-}
-
-.fw-f-subsribe-button {
-  position: relative;
-  left: 65%;
-  bottom: 25px;
-}
-
 .fw-f-line {
   width: 60%;
   margin: auto;
@@ -367,7 +352,22 @@ button:hover {
   display: flex;
   flex-direction: column;
 }
-
+.wrapper {
+  display:inline-block;
+  position: relative
+}
+.fw-f-email-input::before {
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+  position: absolute;
+  right: 6px;
+}
+i::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
 .fw-f-copyrights {
   padding-top: 3%;
   box-sizing: border-box;
@@ -377,12 +377,8 @@ button:hover {
 }
 
 .fw-f-envelope-ic {
-  padding: 5px 10px;
   color: #e0ca8f;
-  position: relative;
-  bottom: 40px;
-}
-
+} 
 h3 {
   font-size: 18px;
   color: white;
@@ -397,5 +393,20 @@ h3 {
   font-weight: 400;
   line-height: 22px;
 }
-
+.fw-f-container-ad {
+  padding-left: 20%;
+}
+.fw-f-contact-us {
+  padding-left: 10%
+}
+.fw-f-newslatter {
+  padding-right: 5%;
+}
+.fw-f-align-newslatter {
+  display: flex;
+  flex-direction: column;
+}
+.fw-f-align-button {
+  text-align: right;
+}
 /*# sourceMappingURL=style.css.map */
