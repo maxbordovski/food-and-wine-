@@ -1,11 +1,10 @@
 @import "colors.scss";
-@import "mixins.scss";
 
 .fw-btn{
     opacity: 70%;
     background-color: $bgcolorsecondary;
     transform: rotate(45deg);
-            i,h3,h4{
+            i,h3,h4,span{
                 color: $colortextsecondary;
                 transform: rotate(-45deg);
                 padding: 0px
@@ -13,7 +12,7 @@
 }
 .fw-btn:hover, :active{
     background-color: $bgcolorbuttonprimary;
-            i,h3,h4{
+            i,h3,h4,span{
                 color: $bgcolorsecondary; 
             }
 }
@@ -23,26 +22,34 @@
     border: 1px solid $colortextprimary;
     font-size: 30px;
 }
-.fw-btn-18{
-    font-size: 18px;
-    width: 100px;
-    height: 100px;
+.fw-btn-slider{
+    width: 185px;
+    height: 195px;
+    margin: auto;
+    font-weight: bold;
+    font-family: 'Meriweather';
     border: none;
-            i{
-                padding-left: 65%;
-            }
+    background-color: inherit;
+    color: $colortextsecondary;
+    padding: 5px 10px;
+    font-size: 18px;
+    letter-spacing: 0.1em;
 }
 .fw-btn-14{
     font-size: 14px;
-    width: 70px;
-    height: 70px;
+    font-family: 'Merriweather sans';
+    width: 100px;
+    height: 100px;
     border: 1px solid $colortextsecondary;
     text-align: center;
+    letter-spacing: normal;
             h4{
-                padding-right: 10px;
+                padding: 20px 20px 5px 10px;
             }
-            i{
-                padding-top: 10px;
-                padding-left: 83%;
+            div{
+                width: 100%;
+                text-align: right;
+                padding-right: 5px;
+                box-sizing: border-box;
             }
 }

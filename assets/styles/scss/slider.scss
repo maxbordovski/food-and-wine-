@@ -1,36 +1,38 @@
 @import "colors.scss";
-@import "mixins.scss";
 
 .fw-sliderblock{
     position: relative;
-    background-color: $bgcolorsecondary;
-}
-.fw-sliderblock-abs{
-    position: absolute;
-    @include block60;
-    z-index: 99999;
-    top: 25%;
-    left: 20%;
-    color: $colortextprimary;
-        h4{
-            text-transform: uppercase;
-            text-align: center;
-        }
+    min-height: 737px;
+    background-image: url('../../images/home-slider-bg.png');
+    border: none;
+            h4{
+                text-transform: uppercase;
+                text-align: center;
+                color: $colortextprimary;
+                letter-spacing: 0.1em;
+            }
 }
 .fw-slider{
-    @include flexblock;
+    padding-top: 230px;
+    color: $colortextprimary;
 }
 .fw-line{
-    min-width: 180px;
     height: 1px;
     background-color: $colortextprimary;
+    flex-grow: 2;
+    margin: 0px 10px;
 }
-.fw-btn18-block{
-    margin-top: 100px;
-    padding-left: 45%;
+.fw-s-btn-block{
+    max-width: 328px;
+    box-sizing: border-box;
+    background-image: url('../../images/Layer6.png');
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 70px 70px 90px 70px;
 }
 .fw-btn14-block{
     position: absolute;
-    bottom: -33px;
-    left: 48%;
+    bottom: -50px;
+    left: 50%;   
+    margin-left: -50px;
 }
