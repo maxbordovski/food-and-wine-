@@ -1,60 +1,6 @@
-/* Colors for backgraund*/
-/* Colors for text*/
-/* Mixin for block 60%*/
-/* Mixin for flexbox bloch row*/
-.fw-h-logo {
-  background-color: #1d1d1d;
-  position: relative; }
-
-.fw-h-contacts {
-  background-color: #2a2a2a;
-  width: 100%;
-  position: absolute;
-  top: 0px;
-  z-index: 999999999;
-  font-size: 10px; }
-
-.fw-h-contactsblock {
-  width: 60%;
-  margin: auto;
-  max-width: 1200px;
-  display: flex;
-  justify-content: space-between;
-  color: #9c9c9c;
-  padding: 2px;
-  max-height: 18px; }
-
-.fw-h-logoblock {
-  margin: auto;
-  width: 30%; }
-
-img {
-  width: 100%; }
-
-.fw-h-naw {
-  width: 60%;
-  margin: auto;
-  max-width: 1200px;
-  display: flex;
-  justify-content: space-between; }
-
-.fw-h-navitem {
-  padding: 5px;
-  border-left: 1px solid #e0ca8f;
-  text-align: center;
-  flex: 0 0 12%; }
-  .fw-h-navitem:hover {
-    text-decoration: none;
-    background-color: #e0ca8f; }
-
-.fw-h-navitem a {
-  font-size: 14px;
-  color: #e0ca8f; }
-  .fw-h-navitem a:hover {
-    color: black; }
-
-.fw-h-naw div:first-child {
-  border-left: none; }
+* {
+  margin: 0px;
+  padding: 0px; }
 
 body {
   font-family: 'Merriweather', serif; }
@@ -77,9 +23,154 @@ h4 {
 p {
   font-size: 18px; }
 
-i {
-  padding-left: 10px;
-  padding-right: 5px; }
-
 a {
   text-decoration: none; }
+
+.block60 {
+  width: 60%;
+  margin: auto;
+  max-width: 1200px; }
+
+.flexblock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+/* Colors for backgraund*/
+/* Colors for text*/
+.fw-h-logo {
+  background-color: #1d1d1d; }
+
+.fw-h-contacts {
+  background-color: #2a2a2a;
+  width: 100%;
+  font-size: 10px; }
+
+.fw-h-contactsblock {
+  color: #9c9c9c;
+  padding: 2px 0px;
+  max-height: 18px; }
+
+.fw-h-logoblock {
+  margin: auto;
+  width: 30%; }
+  .fw-h-logoblock img {
+    width: 100%; }
+
+.fw-h-geo {
+  flex-grow: 15; }
+
+.fw-h-phone {
+  flex-grow: 2; }
+
+i {
+  padding-right: 5px; }
+
+.fw-h-naw {
+  font-family: 'Merriweather sans';
+  padding: 25px 0; }
+
+.fw-h-navitem {
+  padding: 5px;
+  border-left: 1px solid #e0ca8f;
+  text-align: center;
+  flex: 0 0 12%; }
+  .fw-h-navitem:hover {
+    text-decoration: none;
+    background-color: #e0ca8f; }
+  .fw-h-navitem div:first-child {
+    border-left: none; }
+
+.fw-h-navitem a {
+  font-size: 14px;
+  color: #e0ca8f; }
+  .fw-h-navitem a:hover {
+    color: black; }
+
+/* Colors for backgraund*/
+/* Colors for text*/
+.fw-sliderblock {
+  position: relative;
+  min-height: 737px;
+  background-image: url("../../images/home-slider-bg.png");
+  border: none; }
+  .fw-sliderblock h4 {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.1em; }
+
+.fw-slider {
+  padding-top: 230px;
+  color: white; }
+
+.fw-line {
+  height: 1px;
+  background-color: white;
+  flex-grow: 2;
+  margin: 0px 10px; }
+
+.fw-s-btn-block {
+  max-width: 328px;
+  box-sizing: border-box;
+  background-image: url("../../images/Layer6.png");
+  background-repeat: no-repeat;
+  margin: auto;
+  padding: 70px 70px 90px 70px; }
+
+.fw-btn14-block {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  margin-left: -50px; }
+
+/* Colors for backgraund*/
+/* Colors for text*/
+.fw-btn {
+  opacity: 70%;
+  background-color: #2a2a2a;
+  transform: rotate(45deg); }
+  .fw-btn i, .fw-btn h3, .fw-btn h4, .fw-btn span {
+    color: #e0ca8f;
+    transform: rotate(-45deg);
+    padding: 0px; }
+
+.fw-btn:hover, :active {
+  background-color: white; }
+  .fw-btn:hover i, .fw-btn:hover h3, .fw-btn:hover h4, .fw-btn:hover span, :active i, :active h3, :active h4, :active span {
+    color: #2a2a2a; }
+
+.fw-btn-arrow {
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  font-size: 30px; }
+
+.fw-btn-slider {
+  width: 185px;
+  height: 195px;
+  margin: auto;
+  font-weight: bold;
+  font-family: 'Meriweather';
+  border: none;
+  background-color: inherit;
+  color: #e0ca8f;
+  padding: 5px 10px;
+  font-size: 18px;
+  letter-spacing: 0.1em; }
+
+.fw-btn-14 {
+  font-size: 14px;
+  font-family: 'Merriweather sans';
+  width: 100px;
+  height: 100px;
+  border: 1px solid #e0ca8f;
+  text-align: center;
+  letter-spacing: normal; }
+  .fw-btn-14 h4 {
+    padding: 20px 20px 5px 10px; }
+  .fw-btn-14 div {
+    width: 100%;
+    text-align: right;
+    padding-right: 5px;
+    box-sizing: border-box; }

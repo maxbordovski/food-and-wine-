@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Merriweather', serif;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 18px;
+}
+h4{
+    font-size: 14px;
+}
+p{
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+.block60 {
+    width: 60%;
+    margin: auto;
+    max-width: 1200px;
+}
+.flexblock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
