@@ -1,0 +1,185 @@
+body{
+    background: #1d1d1d;
+}
+
+/*main*/
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.fw-flex{
+    display: flex;
+}
+
+.fw-main-img {
+    width: 100%;
+}
+
+.fw-img-cover {
+    background-image: url('../../images/bg.jpg');
+height: 400px;
+   align-items: center;
+    justify-content: center;
+}
+
+
+.fw-banner-text{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.fw-main-text-30{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 143px;
+    padding-bottom: 40px;
+    line-height: 1.5;
+}
+
+.fw-main-container-all{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+        justify-content: space-between;
+    flex-wrap: wrap;
+    }
+
+.fw-main-container {
+    width: 30%;
+    margin: 15px 0px;
+    overflow: hidden;
+    /*background: white;*/
+    padding-bottom: 5px;
+}
+
+.fw-box-link{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.fw-main-name-dish{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    line-height: 1.5;
+    margin: 45px 24px 0 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.fw-main-name-ingridient{
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5;
+    color: #9c9c9c;
+    padding: 20px;
+}
+
+.fw-p-text{
+    margin-top: 30px;
+}
+.fw-main-container-wrapper{
+    justify-content: space-between;
+}
+
+.fw-main-img-box{
+/*margin: 20px 0 20px 0;*/
+    border-top: 2px solid #bfb77b;
+    background: #1d1d1d;
+    background-image: url('../../images/padding-1.jpg');
+    width: 585px;
+    position: relative;
+    padding: 60px 0;
+}
+
+.fw-figure-squer{
+    background: #000;
+    width: 30px;
+    height: 30px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fw-arrow-down{
+    color: #bfb77b;
+    font-size: 25px;
+}
+
+.fw-figure-wrapper {
+     position: absolute;
+    width: 100%;
+    top: -3px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.fw-banner-top-text{
+    color: #bfb77b;
+    text-align: center;
+    text-transform: uppercase;
+   font-size: 30px;
+    /*padding: 54px 131px 23px 131px;*/
+    margin-bottom: 30px;
+}
+
+.fw-banner-bottom-text{
+    color: #bfb77b;
+    text-align: center;
+    font-size: 18px;
+
+    justify-content: center;
+}
+
+.fw-type-food{
+    margin-bottom: 30px;
+}
+
+.fw-line{
+    margin-left: 70px;
+}
+
+.fw-banner-second{
+     background-image: url('../../images/bmg.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.fw-wrapper-items{
+    font-size: 30px;
+    color: #bfb77b;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    line-height: 50px;
+    letter-spacing: 1.8px;
+}
+
+.fw-title-second-banner{
+    font-size: 30px;
+    color: #bfb77b;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1.8px;
+}
+
+.fw-arrow-down-bottom{
+    text-align: center;
+    color: #bfb77b;
+    font-size: 40px;
+}
+.link-type-dinner{
+    text-align: center;
+}
