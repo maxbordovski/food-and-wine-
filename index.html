@@ -13,16 +13,17 @@
 <body>
     <header>
         <div class="fw-h-logo">
-          <div class="fw-h-contacts"> <!-- Absolute block with contacts -->
-            <div class="fw-h-contactsblock">
-              <div><h4><i class="fas fa-map-marker-alt"></i> 4578 Marmoa Road, Glasgow D04 89GR</h4></div>
-              <div><h4><i class="fas fa-phone"></i> +1(800)123 1334  <i class="far fa-clock"></i>  10:00 am - 11:00 pm</h4></div>
+          <div class="fw-h-contacts"> <!-- Block with contacts -->
+            <div class="block60 flexblock fw-h-contactsblock">
+              <div class="fw-h-geo"><i class="fas fa-map-marker-alt"></i>4578 Marmoa Road, Glasgow D04 89GR</div>
+              <div class="fw-h-phone"><i class="fas fa-phone-alt"></i>+1(800)123 1334 </div>  
+              <div><i class="far fa-clock"></i>10:00 am - 11:00 pm</div>
             </div>
           </div>
           <div class="fw-h-logoblock">
-            <img src="./assets/images/logov1.png" alt="Logo">
+            <img src="./assets/images/logov2.png" alt="Logo">
           </div>
-          <nav class="fw-h-naw"> <!-- Navigation -->
+          <nav class="block60 flexblock fw-h-naw"> <!-- Navigation -->
             <div class="fw-h-navitem"><a href="#">HOME</a></div>
             <div class="fw-h-navitem"><a href="#">WINE MENU</a></div>
             <div class="fw-h-navitem"><a href="#">FOOD MENU</a></div>
@@ -37,9 +38,7 @@
       <main>
         <!-- Slider -->
         <section class="fw-sliderblock">
-          <img src="./assets/images/home-slider-bg.png" alt="Food & Wine">
-          <div class="fw-sliderblock-abs">
-          <div class="fw-slider">
+          <div class="block60 flexblock fw-slider">
             <div><button class="fw-btn fw-btn-arrow" type="button"><i class="fas fa-chevron-left"></i></button></div>
             <div class="fw-line"></div>
             <div><h1>FOOD & WINE</h1></div>
@@ -47,19 +46,20 @@
             <div><button class="fw-btn fw-btn-arrow" type="button"><i class="fas fa-chevron-right"></i></button></div>
           </div>
           <h4>The best place for any Wine lover to relax and <br> unwind while enjoying a great food.</h4>
-          <div class="fw-btn18-block"><button class="fw-btn fw-btn-18" type="button"><br><h3>make a reservation</h3><br><i class="fas fa-chevron-down"></i></button></div>
+          <div class="fw-s-btn-block">
+          <button class="fw-btn-slider" type="button"><br><h3>make a reservation</h3><br><i class="fas fa-chevron-down"></i></button>
           </div>
-          <div class="fw-btn14-block"><button class="fw-btn fw-btn-14" type="button"><h4>order<br>food online</h4><br><i class="fas fa-chevron-down"></i></button></div>
+          <div class="fw-btn14-block"><button class="fw-btn fw-btn-14" type="button"><h4>order<br>food online</h4><div><i class="fas fa-chevron-down"></i></div></button></div>
         </section>
         <section class="fw-menublock">
-          <div class="fw-menu-textblock">
+          <div class="fw-menu-textblock block60">
             <h1>We proudly serve the renowned wine <br> and local organic food.</h1>
             <p>We introduce new cultures to visitors through cuisines of various countries, <br>
               offering a special dish for everyone regardless of their <br>
               food preferences.</p>
               <i class="fas fa-square-full"></i>
           </div>
-          <div class="fw-menu">
+          <div class="fw-menu block60 flexblock">
             <div class="fw-menu-item">
               <img src="./assets/images/menu-photo-1.png" alt="Lunch menu">
               <div class="fw-menu-name"><h3>Lunch menu</h3></div>
@@ -100,11 +100,10 @@
               </div>
             </div>
           </div>
-          <div class="fw-break-line"><hr><i class="fas fa-square-full"></i><button class="fw-line-break-button">VIEW ALL MENU</button><i class="fas fa-square-full"></i><hr></div>
+          <div class="fw-break-line flexblock"><hr><i class="fas fa-square-full"></i><button class="fw-btn-break-line">VIEW ALL MENU</button><i class="fas fa-square-full"></i><hr></div>
         </section>
         </main>
-      <footer>
-        <!-- write footer here -->
-      </footer>  
+        <footer>
+        </footer>   
 </body>
 </html>
