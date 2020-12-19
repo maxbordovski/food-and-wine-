@@ -174,3 +174,72 @@ i {
     text-align: right;
     padding-right: 5px;
     box-sizing: border-box; }
+
+.fw-btn-break-line {
+  background-color: inherit;
+  color: #e0ca8f;
+  padding: 5px 10px;
+  font-style: bold 14px;
+  border: none; }
+
+/* Colors for backgraund*/
+/* Colors for text*/
+.fw-menublock {
+  background-color: #2a2a2a; }
+
+.fw-menu-textblock {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 30px; }
+  .fw-menu-textblock h1 {
+    color: white; }
+  .fw-menu-textblock p {
+    padding: 30px 0;
+    color: #9c9c9c; }
+  .fw-menu-textblock i {
+    padding: 30px 0;
+    transform: rotate(-45deg);
+    font-size: 5px;
+    color: #9c9c9c; }
+
+.fw-menu-item {
+  align-self: flex-start;
+  position: relative;
+  width: 32%;
+  background-color: black;
+  min-height: 800px; }
+  .fw-menu-item img {
+    width: 100%; }
+
+.fw-menu-name {
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center; }
+
+.fw-menu-list {
+  padding: 0 15px;
+  color: #9c9c9c; }
+  .fw-menu-list h4 {
+    color: white; }
+
+li {
+  font-size: 14px;
+  padding: 10px 0px;
+  line-height: 1.5; }
+
+.fw-break-line {
+  width: 100%;
+  margin: 30px 0; }
+  .fw-break-line i {
+    transform: rotate(-45deg);
+    padding: 0;
+    color: #9c9c9c;
+    font-size: 5px; }
+  .fw-break-line hr {
+    border: none;
+    background-color: #9c9c9c;
+    height: 1px;
+    flex-grow: 2; }
