@@ -134,11 +134,10 @@ i {
     color: #e0ca8f;
     transform: rotate(-45deg);
     padding: 0px; }
-
-.fw-btn:hover, :active {
-  background-color: white; }
-  .fw-btn:hover i, .fw-btn:hover h3, .fw-btn:hover h4, .fw-btn:hover span, :active i, :active h3, :active h4, :active span {
-    color: #2a2a2a; }
+  .fw-btn:hover, .fw-btn :active {
+    background-color: white; }
+    .fw-btn:hover i, .fw-btn:hover h3, .fw-btn:hover h4, .fw-btn:hover span, .fw-btn :active i, .fw-btn :active h3, .fw-btn :active h4, .fw-btn :active span {
+      color: #2a2a2a; }
 
 .fw-btn-arrow {
   width: 50px;
