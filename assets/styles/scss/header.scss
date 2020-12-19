@@ -1,35 +1,37 @@
 @import "colors.scss";
-@import "mixins.scss";
 
 .fw-h-logo{
     background-color: $bgcolorprimary;
-    position: relative;
 }
 .fw-h-contacts{
     background-color: $bgcolorsecondary;
     width: 100%;
-    position: absolute;
-    top: 0px;
-    z-index: 999999999;
     font-size: 10px;
 }
 .fw-h-contactsblock{
-    @include block60;
-    @include flexblock;
     color: $colortextgrey;
-    padding: 2px;
+    padding: 2px 0px;
     max-height: 18px;
 }
 .fw-h-logoblock{
     margin: auto;
     width: 30%;
+        img{
+            width: 100%; 
+        }
 }
-img{
-    width: 100%;
+.fw-h-geo {
+    flex-grow: 15;
+}
+.fw-h-phone {
+    flex-grow: 2;
+}
+i {
+    padding-right: 5px;
 }
 .fw-h-naw{
-    @include block60;
-    @include flexblock;
+    font-family: 'Merriweather sans';
+    padding: 25px 0;
 }
 .fw-h-navitem{
     padding: 5px;
@@ -39,6 +41,9 @@ img{
         &:hover {  text-decoration: none;
         background-color: $colortextsecondary;
         } 
+        div:first-child{
+            border-left: none;
+        }
 }
 .fw-h-navitem a{
     font-size: 14px;
@@ -46,7 +51,4 @@ img{
     &:hover{
         color: black; 
     }
-}
-.fw-h-naw div:first-child{
-    border-left: none;
 }

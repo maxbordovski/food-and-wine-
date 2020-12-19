@@ -23,10 +23,16 @@ h4{
 p{
     font-size: 18px;
 }
-i{
-    padding-left: 10px;
-    padding-right: 5px;
-}
 a{
     text-decoration: none;
+}
+.block60 {
+    width: 60%;
+    margin: auto;
+    max-width: 1200px;
+}
+.flexblock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

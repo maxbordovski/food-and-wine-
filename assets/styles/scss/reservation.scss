@@ -1,11 +1,9 @@
 @import "colors.scss";
-@import "mixins.scss";
 
 .fw-reserv-block{
     background-color: $bgcolorsecondary;
 }
 .fw-reserv-textblock{
-    @include block60;
     text-align: center;
     padding-top: 70px;
             h1{
@@ -14,5 +12,8 @@
             p{
                 padding: 30px 0;
                 color: $colortextgrey;
+            }
+            img{
+                width: 100%;
             }
 }

@@ -23,58 +23,52 @@ h4 {
 p {
   font-size: 18px; }
 
-i {
-  padding-left: 10px;
-  padding-right: 5px; }
-
 a {
   text-decoration: none; }
 
+.block60 {
+  width: 60%;
+  margin: auto;
+  max-width: 1200px; }
+
+.flexblock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
 /* Colors for backgraund*/
 /* Colors for text*/
-/* Mixin for block 60%*/
-/* Mixin for flexbox block row*/
-/*Mixin for column objects*/
-/*Pattern for inputs*/
-/*Pattern for buttons*/
-/*Pattern for buttons*/
 .fw-h-logo {
-  background-color: #1d1d1d;
-  position: relative; }
+  background-color: #1d1d1d; }
 
 .fw-h-contacts {
   background-color: #2a2a2a;
   width: 100%;
-  position: absolute;
-  top: 0px;
-  z-index: 999999999;
   font-size: 10px; }
 
 .fw-h-contactsblock {
-  width: 60%;
-  margin: auto;
-  max-width: 1200px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   color: #9c9c9c;
-  padding: 2px;
+  padding: 2px 0px;
   max-height: 18px; }
 
 .fw-h-logoblock {
   margin: auto;
   width: 30%; }
+  .fw-h-logoblock img {
+    width: 100%; }
 
-img {
-  width: 100%; }
+.fw-h-geo {
+  flex-grow: 15; }
+
+.fw-h-phone {
+  flex-grow: 2; }
+
+i {
+  padding-right: 5px; }
 
 .fw-h-naw {
-  width: 60%;
-  margin: auto;
-  max-width: 1200px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
+  font-family: 'Merriweather sans';
+  padding: 25px 0; }
 
 .fw-h-navitem {
   padding: 5px;
@@ -84,6 +78,8 @@ img {
   .fw-h-navitem:hover {
     text-decoration: none;
     background-color: #e0ca8f; }
+  .fw-h-navitem div:first-child {
+    border-left: none; }
 
 .fw-h-navitem a {
   font-size: 14px;
@@ -91,76 +87,57 @@ img {
   .fw-h-navitem a:hover {
     color: black; }
 
-.fw-h-naw div:first-child {
-  border-left: none; }
-
 /* Colors for backgraund*/
 /* Colors for text*/
-/* Mixin for block 60%*/
-/* Mixin for flexbox block row*/
-/*Mixin for column objects*/
-/*Pattern for inputs*/
-/*Pattern for buttons*/
-/*Pattern for buttons*/
 .fw-sliderblock {
   position: relative;
-  background-color: #2a2a2a; }
-
-.fw-sliderblock-abs {
-  position: absolute;
-  width: 60%;
-  margin: auto;
-  max-width: 1200px;
-  z-index: 99999;
-  top: 25%;
-  left: 20%;
-  color: white; }
-  .fw-sliderblock-abs h1 {
-    padding: 0 10px; }
-  .fw-sliderblock-abs h4 {
+  min-height: 737px;
+  background-image: url("../../images/home-slider-bg.png");
+  border: none; }
+  .fw-sliderblock h4 {
     text-transform: uppercase;
-    text-align: center; }
+    text-align: center;
+    color: white;
+    letter-spacing: 0.1em; }
 
 .fw-slider {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
+  padding-top: 230px;
+  color: white; }
 
 .fw-line {
-  flex-grow: 2;
   height: 1px;
   background-color: white;
-  margin: 0 10px; }
+  flex-grow: 2;
+  margin: 0px 10px; }
 
-.fw-btn18-block {
-  margin-top: 100px;
-  padding-left: 45%; }
+.fw-s-btn-block {
+  max-width: 328px;
+  box-sizing: border-box;
+  background-image: url("../../images/Layer6.png");
+  background-repeat: no-repeat;
+  margin: auto;
+  padding: 70px 70px 90px 70px; }
 
 .fw-btn14-block {
   position: absolute;
-  bottom: -33px;
-  left: 48%; }
+  bottom: -50px;
+  left: 50%;
+  margin-left: -50px; }
 
 /* Colors for backgraund*/
 /* Colors for text*/
-/* Mixin for block 60%*/
-/* Mixin for flexbox block row*/
-/*Mixin for column objects*/
-/*Pattern for inputs*/
-/*Pattern for buttons*/
-/*Pattern for buttons*/
 .fw-btn {
   opacity: 70%;
   background-color: #2a2a2a;
   transform: rotate(45deg); }
-  .fw-btn i, .fw-btn h3, .fw-btn h4 {
+  .fw-btn i, .fw-btn h3, .fw-btn h4, .fw-btn span {
     color: #e0ca8f;
     transform: rotate(-45deg);
     padding: 0px; }
 
 .fw-btn:hover, :active {
   background-color: white; }
-  .fw-btn:hover i, .fw-btn:hover h3, .fw-btn:hover h4, :active i, :active h3, :active h4 {
+  .fw-btn:hover i, .fw-btn:hover h3, .fw-btn:hover h4, .fw-btn:hover span, :active i, :active h3, :active h4, :active span {
     color: #2a2a2a; }
 
 .fw-btn-arrow {
@@ -169,51 +146,49 @@ img {
   border: 1px solid white;
   font-size: 30px; }
 
-.fw-btn-18 {
-  font-size: 18px;
-  width: 100px;
-  height: 100px;
-  border: none; }
-  .fw-btn-18 i {
-    padding-left: 65%; }
-
-.fw-btn-14 {
-  font-size: 14px;
-  width: 70px;
-  height: 70px;
-  border: 1px solid #e0ca8f;
-  text-align: center; }
-  .fw-btn-14 h4 {
-    padding-right: 10px; }
-  .fw-btn-14 i {
-    padding-top: 10px;
-    padding-left: 83%; }
-
-.fw-line-break-button {
+.fw-btn-slider {
+  width: 185px;
+  height: 195px;
+  margin: auto;
+  font-weight: bold;
   font-family: 'Meriweather';
   border: none;
   background-color: inherit;
   color: #e0ca8f;
-  padding: 5px 10px 5px 10px;
+  padding: 5px 10px;
   font-size: 18px;
-  letter-spacing: 0.1em;
-  font-size: 14px; }
+  letter-spacing: 0.1em; }
+
+.fw-btn-14 {
+  font-size: 14px;
+  font-family: 'Merriweather sans';
+  width: 100px;
+  height: 100px;
+  border: 1px solid #e0ca8f;
+  text-align: center;
+  letter-spacing: normal; }
+  .fw-btn-14 h4 {
+    padding: 20px 20px 5px 10px; }
+  .fw-btn-14 div {
+    width: 100%;
+    text-align: right;
+    padding-right: 5px;
+    box-sizing: border-box; }
+
+.fw-btn-break-line {
+  background-color: inherit;
+  color: #e0ca8f;
+  padding: 5px 10px;
+  font-style: bold 14px;
+  border: none;
+  font-family: 'Meriweather'; }
 
 /* Colors for backgraund*/
 /* Colors for text*/
-/* Mixin for block 60%*/
-/* Mixin for flexbox block row*/
-/*Mixin for column objects*/
-/*Pattern for inputs*/
-/*Pattern for buttons*/
-/*Pattern for buttons*/
 .fw-menublock {
   background-color: #2a2a2a; }
 
 .fw-menu-textblock {
-  width: 60%;
-  margin: auto;
-  max-width: 1200px;
   text-align: center;
   padding-top: 130px;
   padding-bottom: 30px; }
@@ -228,21 +203,14 @@ img {
     font-size: 5px;
     color: #9c9c9c; }
 
-.fw-menu {
-  width: 60%;
-  margin: auto;
-  max-width: 1200px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-
 .fw-menu-item {
   align-self: flex-start;
   position: relative;
   width: 32%;
   background-color: black;
-  min-height: 800px;
-  padding-bottom: 80px; }
+  min-height: 800px; }
+  .fw-menu-item img {
+    width: 100%; }
 
 .fw-menu-name {
   width: 100%;
@@ -264,11 +232,8 @@ li {
   line-height: 1.5; }
 
 .fw-break-line {
-  display: inline-block;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 40px; }
+  width: 100%;
+  padding: 30px 0; }
   .fw-break-line i {
     transform: rotate(-45deg);
     padding: 0;
@@ -282,19 +247,10 @@ li {
 
 /* Colors for backgraund*/
 /* Colors for text*/
-/* Mixin for block 60%*/
-/* Mixin for flexbox block row*/
-/*Mixin for column objects*/
-/*Pattern for inputs*/
-/*Pattern for buttons*/
-/*Pattern for buttons*/
 .fw-reserv-block {
   background-color: #2a2a2a; }
 
 .fw-reserv-textblock {
-  width: 60%;
-  margin: auto;
-  max-width: 1200px;
   text-align: center;
   padding-top: 70px; }
   .fw-reserv-textblock h1 {
@@ -302,3 +258,5 @@ li {
   .fw-reserv-textblock p {
     padding: 30px 0;
     color: #9c9c9c; }
+  .fw-reserv-textblock img {
+    width: 100%; }

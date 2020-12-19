@@ -1,12 +1,9 @@
 @import "colors.scss";
-@import "mixins.scss";
-
 
 .fw-menublock{
     background-color: $bgcolorsecondary;
 }
 .fw-menu-textblock{
-    @include block60;
     text-align: center;
     padding-top: 130px;
     padding-bottom: 30px;
@@ -24,17 +21,16 @@
                 color: $colortextgrey;
             }
 }
-.fw-menu{
-    @include block60;
-    @include flexblock;
-}
+
 .fw-menu-item{
     align-self: flex-start;
     position: relative;
     width: 32%;
     background-color: black;
     min-height: 800px;
-    padding-bottom: 80px;
+        img{
+            width: 100%;
+        }
 }
 .fw-menu-name{
     width: 100%;;
@@ -57,5 +53,18 @@ li{
     line-height: 1.5;
 }
 .fw-break-line{
-    @include break-line;
+    width: 100%;
+    padding: 30px 0;
+            i{
+                transform: rotate(-45deg);
+                padding: 0;
+                color: $colortextgrey;
+                font-size: 5px;
+            }
+            hr{
+                border: none;
+                background-color: $colortextgrey;
+                height: 1px;
+                flex-grow: 2;
+            }
 }
