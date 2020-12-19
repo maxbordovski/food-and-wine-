@@ -9,11 +9,11 @@
                 transform: rotate(-45deg);
                 padding: 0px
             }
-}
-.fw-btn:hover, :active{
-    background-color: $bgcolorbuttonprimary;
-            i,h3,h4,span{
-                color: $bgcolorsecondary; 
+            &:hover, :active{
+                background-color: $bgcolorbuttonprimary;
+                    i,h3,h4,span{
+                        color: $bgcolorsecondary; 
+                     }
             }
 }
 .fw-btn-arrow{
@@ -59,4 +59,5 @@
     padding: 5px 10px;
     font-style: bold 14px;
     border: none;
+    font-family: 'Meriweather';
 }

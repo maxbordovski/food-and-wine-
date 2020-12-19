@@ -134,11 +134,10 @@ i {
     color: #e0ca8f;
     transform: rotate(-45deg);
     padding: 0px; }
-
-.fw-btn:hover, :active {
-  background-color: white; }
-  .fw-btn:hover i, .fw-btn:hover h3, .fw-btn:hover h4, .fw-btn:hover span, :active i, :active h3, :active h4, :active span {
-    color: #2a2a2a; }
+  .fw-btn:hover, .fw-btn :active {
+    background-color: white; }
+    .fw-btn:hover i, .fw-btn:hover h3, .fw-btn:hover h4, .fw-btn:hover span, .fw-btn :active i, .fw-btn :active h3, .fw-btn :active h4, .fw-btn :active span {
+      color: #2a2a2a; }
 
 .fw-btn-arrow {
   width: 50px;
@@ -180,7 +179,8 @@ i {
   color: #e0ca8f;
   padding: 5px 10px;
   font-style: bold 14px;
-  border: none; }
+  border: none;
+  font-family: 'Meriweather'; }
 
 /* Colors for backgraund*/
 /* Colors for text*/
@@ -189,7 +189,7 @@ i {
 
 .fw-menu-textblock {
   text-align: center;
-  padding-top: 150px;
+  padding-top: 130px;
   padding-bottom: 30px; }
   .fw-menu-textblock h1 {
     color: white; }
@@ -232,7 +232,7 @@ li {
 
 .fw-break-line {
   width: 100%;
-  margin: 30px 0; }
+  padding: 30px 0; }
   .fw-break-line i {
     transform: rotate(-45deg);
     padding: 0;
@@ -243,3 +243,19 @@ li {
     background-color: #9c9c9c;
     height: 1px;
     flex-grow: 2; }
+
+/* Colors for backgraund*/
+/* Colors for text*/
+.fw-reserv-block {
+  background-color: #2a2a2a; }
+
+.fw-reserv-textblock {
+  text-align: center;
+  padding-top: 70px; }
+  .fw-reserv-textblock h1 {
+    color: white; }
+  .fw-reserv-textblock p {
+    padding: 30px 0;
+    color: #9c9c9c; }
+  .fw-reserv-textblock img {
+    width: 100%; }
